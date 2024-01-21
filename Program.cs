@@ -26,8 +26,5 @@ if (int.TryParse(text, out number)) // == true
             break;
             }
 }
-// else // Если ввод не является числом и не 'q', повторить запрос
-// {
-// Console.WriteLine("Некорректный ввод.");
-// }
+
 }
