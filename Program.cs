@@ -1,9 +1,10 @@
 ﻿while (true) // true == true
 {
-Console.Write("Введите текст: ");
+Console.Write("Введите строку: ");
 string text = Console.ReadLine()!;
 if (text == "q")
 {
+    Console.WriteLine("[STOP]  Введена буква выхода 'q'");
 break;
 }
 
@@ -22,7 +23,7 @@ if (int.TryParse(text, out number)) // == true
     }
         if (sum % 2 == 0)
             {
-            Console.WriteLine("[STOP]");
+            Console.WriteLine("[STOP]  сумма цифр числа чётная");
             break;
             }
 }
