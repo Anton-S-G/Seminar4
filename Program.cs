@@ -1,7 +1,7 @@
 ﻿while (true) // true == true
 {
 Console.Write("Введите текст: ");
-string text = Console.ReadLine();
+string text = Console.ReadLine()!;
 if (text == "q")
 {
 break;
